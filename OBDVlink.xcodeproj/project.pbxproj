@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E46ACE72B53993E004A3449 /* OBDVlinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46ACE62B53993E004A3449 /* OBDVlinkApp.swift */; };
+		6E46ACE92B53993E004A3449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46ACE82B53993E004A3449 /* ContentView.swift */; };
+		6E46ACEB2B53993F004A3449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E46ACEA2B53993F004A3449 /* Assets.xcassets */; };
+		6E46ACEF2B53993F004A3449 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E46ACEE2B53993F004A3449 /* Preview Assets.xcassets */; };
+		6E46ACF92B539940004A3449 /* OBDVlinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46ACF82B539940004A3449 /* OBDVlinkTests.swift */; };
+		6E46AD032B539940004A3449 /* OBDVlinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46AD022B539940004A3449 /* OBDVlinkUITests.swift */; };
+		6E46AD052B539940004A3449 /* OBDVlinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46AD042B539940004A3449 /* OBDVlinkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E46ACF52B539940004A3449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E46ACDB2B53993E004A3449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E46ACE22B53993E004A3449;
+			remoteInfo = OBDVlink;
+		};
+		6E46ACFF2B539940004A3449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E46ACDB2B53993E004A3449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E46ACE22B53993E004A3449;
+			remoteInfo = OBDVlink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E46ACE32B53993E004A3449 /* OBDVlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBDVlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E46ACE62B53993E004A3449 /* OBDVlinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBDVlinkApp.swift; sourceTree = "<group>"; };
+		6E46ACE82B53993E004A3449 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E46ACEA2B53993F004A3449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E46ACEC2B53993F004A3449 /* OBDVlink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OBDVlink.entitlements; sourceTree = "<group>"; };
+		6E46ACEE2B53993F004A3449 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E46ACF42B539940004A3449 /* OBDVlinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBDVlinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E46ACF82B539940004A3449 /* OBDVlinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBDVlinkTests.swift; sourceTree = "<group>"; };
+		6E46ACFE2B539940004A3449 /* OBDVlinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBDVlinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E46AD022B539940004A3449 /* OBDVlinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBDVlinkUITests.swift; sourceTree = "<group>"; };
+		6E46AD042B539940004A3449 /* OBDVlinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBDVlinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E46ACE02B53993E004A3449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E46ACF12B539940004A3449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E46ACFB2B539940004A3449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E46ACDA2B53993E004A3449 = {
+			isa = PBXGroup;
+			children = (
+				6E46ACE52B53993E004A3449 /* OBDVlink */,
+				6E46ACF72B539940004A3449 /* OBDVlinkTests */,
+				6E46AD012B539940004A3449 /* OBDVlinkUITests */,
+				6E46ACE42B53993E004A3449 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E46ACE42B53993E004A3449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E46ACE32B53993E004A3449 /* OBDVlink.app */,
+				6E46ACF42B539940004A3449 /* OBDVlinkTests.xctest */,
+				6E46ACFE2B539940004A3449 /* OBDVlinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E46ACE52B53993E004A3449 /* OBDVlink */ = {
+			isa = PBXGroup;
+			children = (
+				6E46ACE62B53993E004A3449 /* OBDVlinkApp.swift */,
+				6E46ACE82B53993E004A3449 /* ContentView.swift */,
+				6E46ACEA2B53993F004A3449 /* Assets.xcassets */,
+				6E46ACEC2B53993F004A3449 /* OBDVlink.entitlements */,
+				6E46ACED2B53993F004A3449 /* Preview Content */,
+			);
+			path = OBDVlink;
+			sourceTree = "<group>";
+		};
+		6E46ACED2B53993F004A3449 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E46ACEE2B53993F004A3449 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E46ACF72B539940004A3449 /* OBDVlinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E46ACF82B539940004A3449 /* OBDVlinkTests.swift */,
+			);
+			path = OBDVlinkTests;
+			sourceTree = "<group>";
+		};
+		6E46AD012B539940004A3449 /* OBDVlinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E46AD022B539940004A3449 /* OBDVlinkUITests.swift */,
+				6E46AD042B539940004A3449 /* OBDVlinkUITestsLaunchTests.swift */,
+			);
+			path = OBDVlinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E46ACE22B53993E004A3449 /* OBDVlink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E46AD082B539940004A3449 /* Build configuration list for PBXNativeTarget "OBDVlink" */;
+			buildPhases = (
+				6E46ACDF2B53993E004A3449 /* Sources */,
+				6E46ACE02B53993E004A3449 /* Frameworks */,
+				6E46ACE12B53993E004A3449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OBDVlink;
+			productName = OBDVlink;
+			productReference = 6E46ACE32B53993E004A3449 /* OBDVlink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E46ACF32B539940004A3449 /* OBDVlinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E46AD0B2B539940004A3449 /* Build configuration list for PBXNativeTarget "OBDVlinkTests" */;
+			buildPhases = (
+				6E46ACF02B539940004A3449 /* Sources */,
+				6E46ACF12B539940004A3449 /* Frameworks */,
+				6E46ACF22B539940004A3449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E46ACF62B539940004A3449 /* PBXTargetDependency */,
+			);
+			name = OBDVlinkTests;
+			productName = OBDVlinkTests;
+			productReference = 6E46ACF42B539940004A3449 /* OBDVlinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E46ACFD2B539940004A3449 /* OBDVlinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E46AD0E2B539940004A3449 /* Build configuration list for PBXNativeTarget "OBDVlinkUITests" */;
+			buildPhases = (
+				6E46ACFA2B539940004A3449 /* Sources */,
+				6E46ACFB2B539940004A3449 /* Frameworks */,
+				6E46ACFC2B539940004A3449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E46AD002B539940004A3449 /* PBXTargetDependency */,
+			);
+			name = OBDVlinkUITests;
+			productName = OBDVlinkUITests;
+			productReference = 6E46ACFE2B539940004A3449 /* OBDVlinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E46ACDB2B53993E004A3449 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6E46ACE22B53993E004A3449 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					6E46ACF32B539940004A3449 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6E46ACE22B53993E004A3449;
+					};
+					6E46ACFD2B539940004A3449 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6E46ACE22B53993E004A3449;
+					};
+				};
+			};
+			buildConfigurationList = 6E46ACDE2B53993E004A3449 /* Build configuration list for PBXProject "OBDVlink" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E46ACDA2B53993E004A3449;
+			productRefGroup = 6E46ACE42B53993E004A3449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E46ACE22B53993E004A3449 /* OBDVlink */,
+				6E46ACF32B539940004A3449 /* OBDVlinkTests */,
+				6E46ACFD2B539940004A3449 /* OBDVlinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E46ACE12B53993E004A3449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E46ACEF2B53993F004A3449 /* Preview Assets.xcassets in Resources */,
+				6E46ACEB2B53993F004A3449 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E46ACF22B539940004A3449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E46ACFC2B539940004A3449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E46ACDF2B53993E004A3449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E46ACE92B53993E004A3449 /* ContentView.swift in Sources */,
+				6E46ACE72B53993E004A3449 /* OBDVlinkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E46ACF02B539940004A3449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E46ACF92B539940004A3449 /* OBDVlinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E46ACFA2B539940004A3449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E46AD052B539940004A3449 /* OBDVlinkUITestsLaunchTests.swift in Sources */,
+				6E46AD032B539940004A3449 /* OBDVlinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E46ACF62B539940004A3449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E46ACE22B53993E004A3449 /* OBDVlink */;
+			targetProxy = 6E46ACF52B539940004A3449 /* PBXContainerItemProxy */;
+		};
+		6E46AD002B539940004A3449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E46ACE22B53993E004A3449 /* OBDVlink */;
+			targetProxy = 6E46ACFF2B539940004A3449 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E46AD062B539940004A3449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E46AD072B539940004A3449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6E46AD092B539940004A3449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OBDVlink/OBDVlink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OBDVlink/Preview Content\"";
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IvanDosev.OBDVlink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E46AD0A2B539940004A3449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OBDVlink/OBDVlink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OBDVlink/Preview Content\"";
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IvanDosev.OBDVlink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E46AD0C2B539940004A3449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IvanDosev.OBDVlinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OBDVlink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OBDVlink";
+			};
+			name = Debug;
+		};
+		6E46AD0D2B539940004A3449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IvanDosev.OBDVlinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OBDVlink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OBDVlink";
+			};
+			name = Release;
+		};
+		6E46AD0F2B539940004A3449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IvanDosev.OBDVlinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OBDVlink;
+			};
+			name = Debug;
+		};
+		6E46AD102B539940004A3449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59D3872DX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IvanDosev.OBDVlinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OBDVlink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E46ACDE2B53993E004A3449 /* Build configuration list for PBXProject "OBDVlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E46AD062B539940004A3449 /* Debug */,
+				6E46AD072B539940004A3449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E46AD082B539940004A3449 /* Build configuration list for PBXNativeTarget "OBDVlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E46AD092B539940004A3449 /* Debug */,
+				6E46AD0A2B539940004A3449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E46AD0B2B539940004A3449 /* Build configuration list for PBXNativeTarget "OBDVlinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E46AD0C2B539940004A3449 /* Debug */,
+				6E46AD0D2B539940004A3449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E46AD0E2B539940004A3449 /* Build configuration list for PBXNativeTarget "OBDVlinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E46AD0F2B539940004A3449 /* Debug */,
+				6E46AD102B539940004A3449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E46ACDB2B53993E004A3449 /* Project object */;
+}
