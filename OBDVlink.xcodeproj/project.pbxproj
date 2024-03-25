@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E406A3F2B6281D500A4A067 /* Alo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E406A3E2B6281D500A4A067 /* Alo.swift */; };
 		6E46ACE72B53993E004A3449 /* OBDVlinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46ACE62B53993E004A3449 /* OBDVlinkApp.swift */; };
 		6E46ACE92B53993E004A3449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46ACE82B53993E004A3449 /* ContentView.swift */; };
 		6E46ACEB2B53993F004A3449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E46ACEA2B53993F004A3449 /* Assets.xcassets */; };
@@ -14,6 +15,24 @@
 		6E46ACF92B539940004A3449 /* OBDVlinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46ACF82B539940004A3449 /* OBDVlinkTests.swift */; };
 		6E46AD032B539940004A3449 /* OBDVlinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46AD022B539940004A3449 /* OBDVlinkUITests.swift */; };
 		6E46AD052B539940004A3449 /* OBDVlinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46AD042B539940004A3449 /* OBDVlinkUITestsLaunchTests.swift */; };
+		6E46AD122B5399AC004A3449 /* CoreBLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46AD112B5399AC004A3449 /* CoreBLE.swift */; };
+		6E46AD142B53A13A004A3449 /* Dossi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46AD132B53A13A004A3449 /* Dossi.swift */; };
+		6E7DFC9F2B5CDF8700532A35 /* ELM327Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFC9E2B5CDF8700532A35 /* ELM327Parser.swift */; };
+		6E7DFCA12B5CDFDF00532A35 /* PROTOCOL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCA02B5CDFDF00532A35 /* PROTOCOL.swift */; };
+		6E7DFCA32B5CE31200532A35 /* bleConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCA22B5CE31200532A35 /* bleConnection.swift */; };
+		6E7DFCA52B5CE37400532A35 /* CBPeripheralProtcolDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCA42B5CE37400532A35 /* CBPeripheralProtcolDelegate.swift */; };
+		6E7DFCA72B5CE3DB00532A35 /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCA62B5CE3DB00532A35 /* Peripheral.swift */; };
+		6E7DFCA92B5CE61300532A35 /* CBCentralManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCA82B5CE61300532A35 /* CBCentralManagerMock.swift */; };
+		6E7DFCAB2B5CE63C00532A35 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCAA2B5CE63C00532A35 /* Mock.swift */; };
+		6E7DFCAD2B5CE69500532A35 /* CBPeripheralMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCAC2B5CE69500532A35 /* CBPeripheralMock.swift */; };
+		6E7DFCAF2B5CE92100532A35 /* ServiceCharacteristicsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCAE2B5CE92100532A35 /* ServiceCharacteristicsMock.swift */; };
+		6E7DFCB12B5CE96E00532A35 /*  commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCB02B5CE96E00532A35 /*  commands.swift */; };
+		6E7DFCB32B5CEA2A00532A35 /* Decoders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCB22B5CEA2A00532A35 /* Decoders.swift */; };
+		6E7DFCB52B5CEA8E00532A35 /* Codes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCB42B5CEA8E00532A35 /* Codes.swift */; };
+		6E7DFCB72B5CEBC800532A35 /* SettingsScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCB62B5CEBC800532A35 /* SettingsScreenViewModel.swift */; };
+		6E7DFCB92B5CECC800532A35 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCB82B5CECC800532A35 /* Utils.swift */; };
+		6E7DFCBB2B5CED2B00532A35 /* ELM327.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCBA2B5CED2B00532A35 /* ELM327.swift */; };
+		6E7DFCBD2B5CEE1500532A35 /* ELM327GetVehiclePIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7DFCBC2B5CEE1500532A35 /* ELM327GetVehiclePIDs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E406A3E2B6281D500A4A067 /* Alo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alo.swift; sourceTree = "<group>"; };
 		6E46ACE32B53993E004A3449 /* OBDVlink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBDVlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E46ACE62B53993E004A3449 /* OBDVlinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBDVlinkApp.swift; sourceTree = "<group>"; };
 		6E46ACE82B53993E004A3449 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +65,24 @@
 		6E46ACFE2B539940004A3449 /* OBDVlinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBDVlinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E46AD022B539940004A3449 /* OBDVlinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBDVlinkUITests.swift; sourceTree = "<group>"; };
 		6E46AD042B539940004A3449 /* OBDVlinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBDVlinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E46AD112B5399AC004A3449 /* CoreBLE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBLE.swift; sourceTree = "<group>"; };
+		6E46AD132B53A13A004A3449 /* Dossi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dossi.swift; sourceTree = "<group>"; };
+		6E7DFC9E2B5CDF8700532A35 /* ELM327Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELM327Parser.swift; sourceTree = "<group>"; };
+		6E7DFCA02B5CDFDF00532A35 /* PROTOCOL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROTOCOL.swift; sourceTree = "<group>"; };
+		6E7DFCA22B5CE31200532A35 /* bleConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleConnection.swift; sourceTree = "<group>"; };
+		6E7DFCA42B5CE37400532A35 /* CBPeripheralProtcolDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBPeripheralProtcolDelegate.swift; sourceTree = "<group>"; };
+		6E7DFCA62B5CE3DB00532A35 /* Peripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peripheral.swift; sourceTree = "<group>"; };
+		6E7DFCA82B5CE61300532A35 /* CBCentralManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCentralManagerMock.swift; sourceTree = "<group>"; };
+		6E7DFCAA2B5CE63C00532A35 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		6E7DFCAC2B5CE69500532A35 /* CBPeripheralMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBPeripheralMock.swift; sourceTree = "<group>"; };
+		6E7DFCAE2B5CE92100532A35 /* ServiceCharacteristicsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCharacteristicsMock.swift; sourceTree = "<group>"; };
+		6E7DFCB02B5CE96E00532A35 /*  commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " commands.swift"; sourceTree = "<group>"; };
+		6E7DFCB22B5CEA2A00532A35 /* Decoders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoders.swift; sourceTree = "<group>"; };
+		6E7DFCB42B5CEA8E00532A35 /* Codes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codes.swift; sourceTree = "<group>"; };
+		6E7DFCB62B5CEBC800532A35 /* SettingsScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenViewModel.swift; sourceTree = "<group>"; };
+		6E7DFCB82B5CECC800532A35 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6E7DFCBA2B5CED2B00532A35 /* ELM327.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELM327.swift; sourceTree = "<group>"; };
+		6E7DFCBC2B5CEE1500532A35 /* ELM327GetVehiclePIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELM327GetVehiclePIDs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +135,10 @@
 			children = (
 				6E46ACE62B53993E004A3449 /* OBDVlinkApp.swift */,
 				6E46ACE82B53993E004A3449 /* ContentView.swift */,
+				6E46AD112B5399AC004A3449 /* CoreBLE.swift */,
+				6E406A3E2B6281D500A4A067 /* Alo.swift */,
+				6E46AD132B53A13A004A3449 /* Dossi.swift */,
+				6E7DFC9D2B5CDF1700532A35 /* Utils */,
 				6E46ACEA2B53993F004A3449 /* Assets.xcassets */,
 				6E46ACEC2B53993F004A3449 /* OBDVlink.entitlements */,
 				6E46ACED2B53993F004A3449 /* Preview Content */,
@@ -127,6 +169,29 @@
 				6E46AD042B539940004A3449 /* OBDVlinkUITestsLaunchTests.swift */,
 			);
 			path = OBDVlinkUITests;
+			sourceTree = "<group>";
+		};
+		6E7DFC9D2B5CDF1700532A35 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6E7DFC9E2B5CDF8700532A35 /* ELM327Parser.swift */,
+				6E7DFCA02B5CDFDF00532A35 /* PROTOCOL.swift */,
+				6E7DFCA22B5CE31200532A35 /* bleConnection.swift */,
+				6E7DFCA42B5CE37400532A35 /* CBPeripheralProtcolDelegate.swift */,
+				6E7DFCA62B5CE3DB00532A35 /* Peripheral.swift */,
+				6E7DFCA82B5CE61300532A35 /* CBCentralManagerMock.swift */,
+				6E7DFCAC2B5CE69500532A35 /* CBPeripheralMock.swift */,
+				6E7DFCAA2B5CE63C00532A35 /* Mock.swift */,
+				6E7DFCAE2B5CE92100532A35 /* ServiceCharacteristicsMock.swift */,
+				6E7DFCB02B5CE96E00532A35 /*  commands.swift */,
+				6E7DFCB22B5CEA2A00532A35 /* Decoders.swift */,
+				6E7DFCB42B5CEA8E00532A35 /* Codes.swift */,
+				6E7DFCB62B5CEBC800532A35 /* SettingsScreenViewModel.swift */,
+				6E7DFCBA2B5CED2B00532A35 /* ELM327.swift */,
+				6E7DFCB82B5CECC800532A35 /* Utils.swift */,
+				6E7DFCBC2B5CEE1500532A35 /* ELM327GetVehiclePIDs.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +324,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7DFCB72B5CEBC800532A35 /* SettingsScreenViewModel.swift in Sources */,
+				6E7DFCAB2B5CE63C00532A35 /* Mock.swift in Sources */,
+				6E7DFCAF2B5CE92100532A35 /* ServiceCharacteristicsMock.swift in Sources */,
+				6E7DFCB12B5CE96E00532A35 /*  commands.swift in Sources */,
+				6E7DFCB32B5CEA2A00532A35 /* Decoders.swift in Sources */,
+				6E7DFCB52B5CEA8E00532A35 /* Codes.swift in Sources */,
+				6E46AD142B53A13A004A3449 /* Dossi.swift in Sources */,
+				6E7DFCBD2B5CEE1500532A35 /* ELM327GetVehiclePIDs.swift in Sources */,
+				6E7DFCA72B5CE3DB00532A35 /* Peripheral.swift in Sources */,
+				6E7DFCA52B5CE37400532A35 /* CBPeripheralProtcolDelegate.swift in Sources */,
+				6E7DFCA32B5CE31200532A35 /* bleConnection.swift in Sources */,
+				6E7DFC9F2B5CDF8700532A35 /* ELM327Parser.swift in Sources */,
+				6E406A3F2B6281D500A4A067 /* Alo.swift in Sources */,
+				6E7DFCB92B5CECC800532A35 /* Utils.swift in Sources */,
+				6E46AD122B5399AC004A3449 /* CoreBLE.swift in Sources */,
+				6E7DFCBB2B5CED2B00532A35 /* ELM327.swift in Sources */,
 				6E46ACE92B53993E004A3449 /* ContentView.swift in Sources */,
+				6E7DFCAD2B5CE69500532A35 /* CBPeripheralMock.swift in Sources */,
 				6E46ACE72B53993E004A3449 /* OBDVlinkApp.swift in Sources */,
+				6E7DFCA92B5CE61300532A35 /* CBCentralManagerMock.swift in Sources */,
+				6E7DFCA12B5CDFDF00532A35 /* PROTOCOL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +503,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = Allow;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = Allow;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -429,7 +515,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -457,6 +543,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = Allow;
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = Allow;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -467,7 +555,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
